@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Cussinene, AI Recipe Generator
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Cussinene** is a smart and intuitive mobile app built with **React Native** that helps users create **personalized recipes** using ingredients they already have. Powered by AI, it saves time and adapts to user needs.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+### Personalized Recipes
+- Suggests recipes based on ingredients from the user’s **virtual inventory**.
+- Uses **AI** to generate suitable meals tailored to available items.
 
-2. Start the app
+### Adaptable to User Needs
+- Users can configure **dietary preferences** (e.g., vegetarian, keto, gluten-free).
+- Handles **allergy information** to filter out unsafe recipes.
 
-   ```bash
-    npx expo start
-   ```
+### Time-Saving Options
+- Filter recipes by **preparation time**, perfect for busy schedules.
 
-In the output, you'll find options to open the app in a
+### Smart Ingredient Input
+- Add ingredients in three ways:
+  - **Manually**
+  - **Barcode scanning**
+  - **Voice input**
+  
+### Favorites & Inventory Management
+- Mark favorite recipes to revisit later.
+- After completing a recipe, the app **automatically removes used ingredients** from the inventory.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Intuitive Design
+- Clean, minimal UI with **great user experience** in mind.
+- Simple navigation and user-friendly interactions.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Tech Stack
 
-When you're ready, run:
+- **Expo + React Native**
+- **DeepSeek API**
+- **Open Food Facts API**
+- **OpenAI whisper**
+- **AWS Amplify**
 
-```bash
-npm run reset-project
-```
+## Demo
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[![Watch the demo](https://img.youtube.com/vi/rZW2urxR6aw/hqdefault.jpg)](https://youtu.be/rZW2urxR6aw)
